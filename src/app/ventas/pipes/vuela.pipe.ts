@@ -12,6 +12,6 @@ export class VuelaPipe implements PipeTransform {
         }
         return "no";
     }
-    // return ( valor ) ? "Si" : "No"
+    // return ( valor ) ? "sí" : "no"
     
 }
