@@ -41,7 +41,7 @@
 
 <div class="p-grid">
     <div class="p-col mt-2">
-        <p-table [value]="heroes | ordenar:ordenarPor">
+        <p-table [value]="heroes | slice:0 | ordenar:ordenarPor">
             <ng-template pTemplate="header">
                 <tr>
                     <th>Nombre</th>
